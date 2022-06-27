@@ -25,6 +25,9 @@ a {
 a:focus {
   outline: thin dotted;
 }
+a:hover{
+  color: #ADD8E6; 
+}
 
 small {
   font-size: 75%;
