@@ -1,5 +1,4 @@
-/**
- * Typography & Text styles
+/*Typography & Text styles
  */
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
@@ -26,7 +25,7 @@ a:focus {
   outline: thin dotted;
 }
 a:hover{
-  color: #ADD8E6; 
+  color: #4ea1bd; 
 }
 
 small {
@@ -61,9 +60,7 @@ h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
 }
-p + p {
 
-}
 
 /**
  * Quotes & Blockquotes
@@ -139,6 +136,22 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-
-
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.one{
+    background: rgb(32, 164, 138);
+    height: 200vh;
+}
+.two{
+    background:rgb(58, 116, 225);
+}
+.project-sub-container{
+    scroll-snap-type: y mandatory;
+    overflow-x: scroll;
+    height: 100vh;
+}
 
